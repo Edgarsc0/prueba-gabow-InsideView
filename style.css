@@ -42,14 +42,14 @@ a, a:hover, a:active, a:visited {
   overflow: hidden;
 }
 
-#titleBar {
+/* #titleBar {
   position: absolute;
   top: 0;
   left: 0;
   right: 40px;
   height: 40px;
   text-align: center;
-}
+} */
 
 .mobile #titleBar {
   height: 50px;
@@ -200,7 +200,7 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   display: none;
 }
 
-#sceneListToggle {
+/* #sceneListToggle {
   position: absolute;
   top: 0;
   left: 0;
@@ -209,9 +209,9 @@ body.fullscreen-enabled.mobile #autorotateToggle {
   padding: 5px;
   background-color: rgb(103,115,131);
   background-color: rgba(103,115,131,0.8);
-}
+} */
 
-.mobile #sceneListToggle {
+/* .mobile #sceneListToggle {
   width: 50px;
   height: 50px;
 }
@@ -251,9 +251,9 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 
 #sceneListToggle.enabled .icon.off {
   display: none;
-}
+} */
 
-#sceneList {
+/* #sceneList {
   position: absolute;
   top: 0;
   left: -220px;
@@ -327,12 +327,12 @@ body.fullscreen-enabled.mobile #autorotateToggle {
 #sceneList .scene.current {
   background-color: rgb(103,115,131);
   background-color: rgba(103,115,131,0.8);
-}
+} */
 
 /* Hide scene list when only a single scene exists */
-body.single-scene #sceneList, body.single-scene #sceneListToggle {
+/* body.single-scene #sceneList, body.single-scene #sceneListToggle {
   display: none;
-}
+} */
 
 /* Link hotspot */
 
